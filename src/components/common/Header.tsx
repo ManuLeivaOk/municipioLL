@@ -21,9 +21,24 @@ export default function Header() {
       command: () => (window.location.href = "/historia-de-laguna-larga"),
     },
     {
-      label: "Contacto",
-      icon: "pi pi-envelope",
-      command: () => (window.location.href = "/contact"),
+      label: "Centro cultural",
+      icon: "pi pi-building-columns",
+      command: () => (window.location.href = "/inicio"),
+    },
+    {
+      label: "Biblioteca",
+      icon: "pi pi-book",
+      command: () => (window.location.href = "/inicio"),
+    },
+    {
+      label: "Hospital",
+      icon: "pi pi-heart",
+      command: () => (window.location.href = "/inicio"),
+    },
+    {
+      label: "Guardería",
+      icon: "pi pi-palette",
+      command: () => (window.location.href = "/inicio"),
     },
   ];
 

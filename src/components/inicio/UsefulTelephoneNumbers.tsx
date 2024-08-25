@@ -16,7 +16,7 @@ const UsefulTelephoneNumbers = () => {
             className="p-3 shadow-2 mb-3 inline-block"
             style={{ borderRadius: "10px" }}
           >
-            <i className="pi pi-users text-4xl text-blue-500"></i>
+            <i className="pi pi-id-card text-4xl text-blue-500"></i>
           </span>
           <div className="text-900 text-xl mb-3 font-medium">
             Registro civil.
@@ -80,7 +80,9 @@ const UsefulTelephoneNumbers = () => {
           >
             <i className="pi pi-warehouse text-4xl text-blue-500"></i>
           </span>
-          <div className="text-900 text-xl mb-3 font-medium">Habilitación de negocios.</div>
+          <div className="text-900 text-xl mb-3 font-medium">
+            Habilitación de negocios.
+          </div>
           <span className="text-700 line-height-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
             accusantium est natus ullam cupiditate fuga ipsa unde consectetur
@@ -92,7 +94,7 @@ const UsefulTelephoneNumbers = () => {
             className="p-3 shadow-2 mb-3 inline-block"
             style={{ borderRadius: "10px" }}
           >
-            <i className="pi pi-user-plus text-4xl text-blue-500"></i>
+            <i className="pi pi-users text-4xl text-blue-500"></i>
           </span>
           <div className="text-900 text-xl mb-3 font-medium">
             Desarrollo social.
