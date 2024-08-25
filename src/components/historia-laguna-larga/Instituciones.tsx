@@ -37,6 +37,21 @@ const Instituciones = () => {
     );
   };
 
+  const tab3HeaderTemplate = (options: TabPanelHeaderTemplateOptions) => {
+    return (
+      <div
+        className="flex align-items-center gap-2 p-3 imageENL"
+        style={{ cursor: "pointer" }}
+        onClick={options.onClick}
+      >
+        <Avatar image="/enl.png" />
+        <span className="font-bold white-space-nowrap">
+          Escuela Narciso Laprida
+        </span>
+      </div>
+    );
+  };
+
   return (
     <>
       <h3 className="font-bold text-3xl text-blue-600">
@@ -57,6 +72,20 @@ const Instituciones = () => {
           </TabPanel>
           <TabPanel
             headerTemplate={tab2HeaderTemplate}
+            headerClassName="flex align-items-center"
+          >
+            <p className="m-0">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci
+              velit, sed quia non numquam eius modi.
+            </p>
+          </TabPanel>
+          <TabPanel
+            headerTemplate={tab3HeaderTemplate}
             headerClassName="flex align-items-center"
           >
             <p className="m-0">
