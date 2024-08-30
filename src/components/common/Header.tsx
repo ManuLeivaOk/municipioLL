@@ -40,6 +40,11 @@ export default function Header() {
       icon: "pi pi-palette",
       command: () => (window.location.href = "/inicio"),
     },
+    {
+      label: "Consejo deliberante",
+      icon: "pi pi-comments",
+      command: () => (window.location.href = "/inicio"),
+    },
   ];
 
   const end = (

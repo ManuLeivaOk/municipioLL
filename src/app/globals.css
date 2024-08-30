@@ -1,3 +1,7 @@
 .imageENL img {
   object-fit: cover;
 }
+
+.margin-top-hero-image {
+  margin-top: -50px !important;
+}

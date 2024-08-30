@@ -40,7 +40,7 @@ const Instituciones = () => {
   const tab3HeaderTemplate = (options: TabPanelHeaderTemplateOptions) => {
     return (
       <div
-        className="flex align-items-center gap-2 p-3 imageENL"
+        className="flex align-items-center gap-2 p-3 imageENL bg-white"
         style={{ cursor: "pointer" }}
         onClick={options.onClick}
       >
