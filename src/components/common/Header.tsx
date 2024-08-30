@@ -43,7 +43,7 @@ export default function Header() {
     {
       label: "Consejo deliberante",
       icon: "pi pi-comments",
-      command: () => (window.location.href = "/inicio"),
+      command: () => (window.location.href = "/consejo-deliberante"),
     },
   ];
 
