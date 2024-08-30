@@ -5,3 +5,8 @@
 .margin-top-hero-image {
   margin-top: -50px !important;
 }
+
+.primary-header {
+  background-color: #3b81f1;
+  color: white;
+}

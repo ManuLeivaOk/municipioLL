@@ -8,10 +8,8 @@ import React from "react";
 const LagunaLarga = () => {
   const images = [
     {
-      itemImageSrc:
-        "https://primefaces.org/cdn/primereact/images/galleria/galleria1.jpg",
-      thumbnailImageSrc:
-        "https://primefaces.org/cdn/primereact/images/galleria/galleria1s.jpg",
+      itemImageSrc: "/ingreso.JPG",
+      thumbnailImageSrc: "/ingreso.JPG",
       alt: "Description for Image 1",
       title: "Title 1",
     },
