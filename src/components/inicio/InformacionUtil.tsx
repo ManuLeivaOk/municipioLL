@@ -1,26 +1,50 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { TabView, TabPanel } from "primereact/tabview";
 import { Fieldset } from "primereact/fieldset";
+import Image from "next/image";
 
 export default function InformacionUtil() {
   return (
     <div>
       <div className="card">
-        <Fieldset legend="Teléfonos útiles" className="m-0">
-          <p className="m-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <Fieldset
+          legend={
+            <span className="bg-blue-700 text-white px-3 py-2 rounded flex items-center">
+              <i className="pi pi-phone mr-2"></i>
+              Teléfonos útiles
+            </span>
+          }
+          className="m-0"
+        >
+          <div className="flex justify-content-center">
+            <p className="mr-8">
+              <span className="font-bold mr-2">Policía:</span>
+              101
+            </p>
+            <p className="">
+              <span className="font-bold mr-2">Bomberos:</span>
+              101
+            </p>
+          </div>
+
+          <div className="flex justify-content-center">
+            <p className="mr-8">
+              <span className="font-bold mr-2">Hospital: </span>
+              107 - 03572 480111 (urgencias)
+            </p>
+            <p className="">
+              <span className="font-bold mr-2">
+                Municipio de Laguna Larga:{" "}
+              </span>
+              03572 480101
+            </p>
+          </div>
         </Fieldset>
       </div>
       <div className="card">
         <TabView>
-          <TabPanel header="Colectivos" leftIcon="pi pi-truck mr-2">
+          {/* <TabPanel header="Colectivos" leftIcon="pi pi-truck mr-2">
             <p className="m-0">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -30,17 +54,22 @@ export default function InformacionUtil() {
               eos qui ratione voluptatem sequi nesciunt. Consectetur, adipisci
               velit, sed quia non numquam eius modi.
             </p>
-          </TabPanel>
-          <TabPanel header="Farmacias" leftIcon="pi pi-heart mr-2">
-            <p className="m-0">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga. Et harum quidem rerum
-              facilis est et expedita distinctio. Nam libero tempore, cum soluta
-              nobis est eligendi optio cumque nihil impedit quo minus.
-            </p>
+          </TabPanel> */}
+          <TabPanel header="Farmacias de turno" leftIcon="pi pi-heart mr-2">
+            <Image
+              src="/farmacias.webp"
+              alt="farmacias de turno"
+              width={500}
+              height={400}
+              className="w-full h-auto md:hidden"
+            />
+            <Image
+              src="/farmaciasDesk.webp"
+              alt="farmacias de turno"
+              width={500}
+              height={400}
+              className="w-full h-auto hidden md:block"
+            />
           </TabPanel>
         </TabView>
       </div>

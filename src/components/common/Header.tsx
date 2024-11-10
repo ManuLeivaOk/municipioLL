@@ -20,7 +20,7 @@ export default function Header() {
       icon: "pi pi-info-circle",
       command: () => (window.location.href = "/historia-de-laguna-larga"),
     },
-    {
+    /*     {
       label: "Centro cultural",
       icon: "pi pi-building-columns",
       command: () => (window.location.href = "/inicio"),
@@ -39,25 +39,25 @@ export default function Header() {
       label: "Guardería",
       icon: "pi pi-palette",
       command: () => (window.location.href = "/inicio"),
-    },
+    }, */
     {
-      label: "Consejo deliberante",
+      label: "concejo deliberante",
       icon: "pi pi-comments",
-      command: () => (window.location.href = "/consejo-deliberante"),
+      command: () => (window.location.href = "/concejo-deliberante"),
     },
   ];
 
-  const end = (
+  /*   const end = (
     <Button
       icon="pi pi-menu"
       onClick={() => setVisibleSidebar(true)}
       className="p-button-text text-white"
     />
-  );
+  ); */
 
   return (
     <>
-      <Menubar model={items} end={end} className="p-mb-4" />
+      <Menubar model={items} />
 
       <Sidebar
         visible={visibleSidebar}

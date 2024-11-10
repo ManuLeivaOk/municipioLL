@@ -9,9 +9,9 @@ const Page = () => {
       <div className="py-8 px-3 md:px-8 ">
         <LagunaLarga />
       </div>
-      <div className="py-8 px-3 md:px-8 surface-50">
+      {/* <div className="py-8 px-3 md:px-8 surface-50">
         <Instituciones />
-      </div>
+      </div> */}
     </>
   );
 };

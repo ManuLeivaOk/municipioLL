@@ -79,11 +79,7 @@ export default function ContactForm() {
           />
         </div>
 
-        <Button
-          type="submit"
-          label="Enviar"
-          className="p-button-primary mt-5"
-        />
+        <Button type="submit" label="Enviar" color="primary" />
       </form>
 
       <Divider />
