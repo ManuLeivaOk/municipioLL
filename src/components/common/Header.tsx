@@ -41,7 +41,7 @@ export default function Header() {
       command: () => (window.location.href = "/inicio"),
     }, */
     {
-      label: "concejo deliberante",
+      label: "Concejo deliberante",
       icon: "pi pi-comments",
       command: () => (window.location.href = "/concejo-deliberante"),
     },

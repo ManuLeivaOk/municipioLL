@@ -218,20 +218,23 @@ const UsefulTelephoneNumbers = () => {
             </span>
             Lunes a viernes de 7 a 13 hrs.
           </p>
-          <Button
-            label="www.instagram.com/culturalagunalarga"
-            icon="pi pi-instagram"
-            text
-            className="text-sm"
-            style={{ padding: 0, marginTop: 4 }}
-            onClick={() =>
-              window.open(
-                "https://www.instagram.com/culturalagunalarga",
-                "_blank",
-                "noopener,noreferrer"
-              )
-            }
-          />
+          <p className="my-2">
+            <Button
+              label="www.instagram.com/culturalagunalarga"
+              icon="pi pi-instagram"
+              text
+              className="text-sm"
+              style={{ padding: 0, marginTop: 4 }}
+              onClick={() =>
+                window.open(
+                  "https://www.instagram.com/culturalagunalarga",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            />
+          </p>
+
           <Button
             onClick={() => setVisiblePopupCentroCultural(true)}
             className="mt-3"
